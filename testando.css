@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+header {
+	position: fixed;
+	background-color: #b3ffcaf2;
+	width: 100%;
+}
+
 .sidebar {
 	
 }
@@ -12,29 +18,37 @@
 text-align: left;
 width: auto;
 max-width: 100%;
+height: 109px;
 border-radius: 40%;
+
 }
 
 
-.menu {
+#menu {
 text-align: center;
 position: relative;
-width: 50%;
-padding: 20px;
-margin: 20px;
+width: 100%;
+padding: 0px;
+margin: 25px;
 }
-.menu a{
+#menu a{
 	color: green;
 }
+#menu a:hover {
+	color: pink;	
+}
 
-.conteudo {
+#conteudo {
 	position: relative;
-	left: 0;
-	width: auto;	
+	width: 100%;	
 	height: 100%;
 	overflow-y: auto;
 	padding: 0 20%;
 	position: fixed;
-	top: 35px;
-	background-color: #9def3e59;
+	top: 177px;
+	margin-top: 20px;
+}
+
+#conteudo h1 {
+	text-align: center;
 }
