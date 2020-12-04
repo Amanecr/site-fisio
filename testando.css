@@ -8,6 +8,7 @@ header {
 	position: fixed;
 	background-color: #b3ffcaf2;
 	width: 100%;
+	display: inline-block;
 }
 
 .sidebar {
@@ -33,6 +34,8 @@ margin: 25px;
 }
 #menu a{
 	color: green;
+	text-decoration: none;
+	padding: 15px;
 }
 #menu a:hover {
 	color: pink;	
@@ -46,9 +49,13 @@ margin: 25px;
 	padding: 0 20%;
 	position: fixed;
 	top: 177px;
-	margin-top: 20px;
 }
 
 #conteudo h1 {
 	text-align: center;
+	margin-top: 20px;
+}
+
+#conteudo p {
+	padding: 8px 0px;
 }
