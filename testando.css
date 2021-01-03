@@ -14,8 +14,8 @@ header {
 }
 
 .menu-logo {
-	width: 320px;
-	height: 240px;
+	width: 100px;
+	height: auto;
 	display: inline;
 	float: left;
 	margin-left: 25px;
@@ -62,14 +62,6 @@ li {
   float:left;
 }
 
-#divBusca{
-  border:solid 3px #3ad813;
-  border-radius:10px;
-  height:37px;
-  width:400px;
-  float: right;
-  margin-top: 90px;
-}
 
 @media screen and (max-width: 766px) {
 	.menu {

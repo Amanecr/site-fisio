@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, ul, li, p {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Quando a tela diminuir, os itens do menu irão para baixo da logo*/
+    background-color: #5de58494;
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    padding: 8px;
+}
+
+.img-logo {
+    margin: 5px 0 2px 20px;
+}
+
+@media screen and (max-width: 673px) {
+
+    .menu{
+        display: flex;
+        text-align: center;
+    }
+    .img-logo{
+        text-align: center;
+    }
+}
