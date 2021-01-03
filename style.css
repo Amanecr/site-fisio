@@ -13,34 +13,58 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #00ff4354;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr 5fr  1fr;
+  
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; /* Quando a tela diminuir, os itens do menu irão para baixo da logo*/
     background-color: #5de58494;
+    border-radius: 10px;
+    margin: 10px 35px 20px 35px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
 }
+
+
 
 .menu {
     display: flex;
-    padding: 10px;
+    margin-right: 70px;
 }
 
 li {
-    padding: 8px;
+    padding: 15px;
 }
 
 .img-logo {
     margin: 5px 0 2px 20px;
 }
 
-@media screen and (max-width: 673px) {
+main {
+    margin: 15px;
+    grid-column-start: 2;
+}
+section {
+    
+}
 
-    .menu{
-        display: flex;
-        text-align: center;
-    }
-    .img-logo{
-        text-align: center;
-    }
+aside {
+
+}
+
+footer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background: coral;
 }
