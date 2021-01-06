@@ -36,11 +36,17 @@ header {
     
 }
 
-
-
 .menu {
     display: flex;
     margin-right: 70px;
+}
+
+.menu a{
+    color: #1b8600;
+}
+
+.menu a:hover {
+    color: #27c000;
 }
 
 li {
@@ -54,8 +60,11 @@ li {
 main {
     margin: 15px;
     grid-column-start: 2;
+    padding: 25px 0 25px 25px;
 }
 section {
+    margin: 15px;
+    padding: 25px;
     
 }
 
